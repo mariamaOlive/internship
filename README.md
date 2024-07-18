@@ -64,7 +64,7 @@ The languange and libraries utilized will be:
     ```
 
 4. Launch Jupyter Notebook
-    Start Jupyter Notebook:
+   
     ```bash
    jupyter notebook
     ```
