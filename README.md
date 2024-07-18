@@ -12,7 +12,7 @@ This project focuses on developing an object detection system for identifying an
 
 ## Features
 
-- **Model Training:** Training of object detection model using YOLOv8.
+- **Model Training:** Training of object detection model using YOLOv8. The model was trained using this [dataset](https://universe.roboflow.com/epp-internship-0rrmj/epp-internship-2-no-negatives). 
 - **Object Detection:** Object detection and classification given images and videos.
 
 ## Getting Started
