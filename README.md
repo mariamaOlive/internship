@@ -42,25 +42,24 @@ Before you begin, ensure you have met the following requirements:
    pip install opencv-python
     ```
 
-### Installation
+## Using the Notebooks 📙
 
-#### Object Detection files V1
+### Object Detection files V1
 
 To run the object detection model on pre-existing files, use the notebook [ppe_detection_files_v1](ppe_detection_files_v1)
 . It is necessary to place the files inside the folder **files_detection/images** or **files_detection/videos**.
 
 
-#### Object Detection files V2
+### Object Detection files V2
 To run the object detection model on pre-existing files, use the notebook [ppe_detection_files_v2](ppe_detection_files_v2)
 . 
 
-#### Object Detection Webcam
+### Object Detection Webcam
 
 To run the object detection model using, use the notebook [ppe_detection_webcam](ppe_detection_webcam)
 . 
 
-
------
+### Changing the models
 
 Inside the notebooks, it is possible to choose different models to perform the detection:
 
