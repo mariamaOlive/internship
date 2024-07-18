@@ -12,7 +12,7 @@ This project focuses on developing an object detection system for identifying an
 
 ## Features
 
-- **Model Training:** Training of object detection model using YOLOv8. The model was trained using this [dataset](https://universe.roboflow.com/epp-internship-0rrmj/epp-internship-2-no-negatives). 
+- **Model Training:** Training of object detection model using YOLOv8. The models were trained using this [dataset](https://universe.roboflow.com/epp-internship-0rrmj/epp-internship-2-no-negatives) and another dataset that is too big to store on Roboflow.
 - **Object Detection:** Object detection and classification given images and videos.
 
 ## Getting Started
@@ -44,12 +44,25 @@ Before you begin, ensure you have met the following requirements:
 
 ### Installation
 
-#### Object Detection files
+#### Object Detection files V1
 
-To run the object detection model on pre-existing files, use the notebook [safety_detection.ipynb](safety_detection.ipynb)
+To run the object detection model on pre-existing files, use the notebook [ppe_detection_files_v1](ppe_detection_files_v1)
 . It is necessary to place the files inside the folder **files_detection/images** or **files_detection/videos**.
 
-Inside the notebook, it is possible to choose different models to perform the detection:
+
+#### Object Detection files V2
+To run the object detection model on pre-existing files, use the notebook [ppe_detection_files_v2](ppe_detection_files_v2)
+. 
+
+#### Object Detection Webcam
+
+To run the object detection model using, use the notebook [ppe_detection_webcam](ppe_detection_webcam)
+. 
+
+
+-----
+
+Inside the notebooks, it is possible to choose different models to perform the detection:
 
 ```python
 # Load a model
@@ -58,5 +71,4 @@ model = YOLO("model/choose_model.pt")
 
 The models can be found inside the folder **model**.
 
-#### Object Detection Webcam
 
