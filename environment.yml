@@ -1,4 +1,4 @@
-name: internship
+name: internship-ediss
 channels:
   - conda-forge
   - anaconda
