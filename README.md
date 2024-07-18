@@ -87,7 +87,7 @@ The languange and libraries utilized will be:
 ### Object Detection files V1
 This file perform objet detection on image and video files.
 
-To run the object detection model on pre-existing files, use the notebook [ppe_detection_files_v1](ppe_detection_files_v1). It is necessary to place the files inside the folder **files_detection/images** or **files_detection/videos**.
+To run the object detection model on pre-existing files, use the notebook [ppe_detection_files_v1](ppe_detection_files_v1). It is necessary to place the files inside the folder `files_detection/images` or `files_detection/videos`.
 
 
 ### Object Detection files V2
@@ -109,6 +109,6 @@ Inside the notebooks, it is possible to choose different models to perform the d
 model = YOLO("model/choose_model.pt") 
 ````
 
-The models can be found inside the folder **model**.
+The models can be found inside the folder `model`.
 
 
